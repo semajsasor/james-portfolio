@@ -268,13 +268,11 @@ body {
   width: 340px; height: 340px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 15%;
-  transform: scale(1.15);
+  object-position: center top;
   display: block;
   position: relative;
   z-index: 1;
   box-shadow: 0 0 60px rgba(0,212,255,0.2);
-  background-color: var(--bg-card); /* In case of transparency */
 }
 
 /* Float Cards */
