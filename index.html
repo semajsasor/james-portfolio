@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James Francis O. Rosas | Industrial Engineer</title>
+  <meta name="description" content="Portfolio of James Francis O. Rosas — Industrial Engineer specializing in Inventory Management, Documentation, and 3D Rendering based in Cebu, Philippines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── Cursor glow ─── -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ─── Particle Canvas ─── -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ─── Navigation ─── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">JFR</a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Certs</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ─── -->
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">Industrial Engineer</div>
+      <h1 class="hero-name reveal">
+        <span class="name-first">James Francis</span>
+        <span class="name-last">O. Rosas</span>
+      </h1>
+      <p class="hero-tagline reveal">Turning complex processes into seamless operations — driven by data, design thinking &amp; precision.</p>
+      <div class="hero-actions reveal">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-target="4">0</span><span>+</span>
+          <span class="stat-label">Years Study</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="5">0</span><span>+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span>+</span>
+          <span class="stat-label">Skills Areas</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-wrap reveal">
+      <div class="hero-image-ring"></div>
+      <div class="hero-image-ring ring-2"></div>
+      <img src="profile.png" alt="James Francis O. Rosas" class="hero-image" />
+      <div class="hero-float-card card-1">
+        <span class="float-icon">📊</span>
+        <span>Inventory Mgmt</span>
+      </div>
+      <div class="hero-float-card card-2">
+        <span class="float-icon">🏗️</span>
+        <span>3D Rendering</span>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ─── About ─── -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-label reveal">Who I Am</div>
+      <h2 class="section-title reveal">A Passionate Industrial Engineer</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm an industrial engineer with hands-on experience in <strong>Inventory Management</strong> and <strong>Documentation</strong>. I also hold a commission for creating <strong>3D models</strong> using Render application.</p>
+          <p>I'm proven in data analysis, developing creative solutions to drive revenue growth. My strengths in management, teamwork, and collaboration allow me to prioritize tasks and meet tight deadlines.</p>
+          <p>I'm seeking a challenging role that lets me apply my creative and design skills, as well as inventory control, to ensure smooth and effective business operations.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🎯</span>
+              <div>
+                <strong>Process Optimization</strong>
+                <span>Business Excellence &amp; Flowcharts</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">📦</span>
+              <div>
+                <strong>Inventory Control</strong>
+                <span>End-to-end lifecycle tracking</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🎨</span>
+              <div>
+                <strong>3D Rendering</strong>
+                <span>Commissioned model creation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-contact-card reveal">
+          <h3>Contact Details</h3>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon">📞</span>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:09666399706">09666399706</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon">✉️</span>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:semajsasor@gmail.com">semajsasor@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon">📍</span>
+              <div>
+                <span class="contact-label">Location</span>
+                <span>Marian Village Tayud, Consolacion, Cebu 6001, Philippines</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Experience ─── -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-label reveal">Career</div>
+      <h2 class="section-title reveal">Professional Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span>🏢</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Business Excellence Analyst</h3>
+                <p class="timeline-company">Celestial Meadows Developers Corporation</p>
+              </div>
+              <span class="timeline-date">Jun 2022 – Aug 2022</span>
+            </div>
+            <p class="timeline-location">BPI Corporate Center Unit 1509, Cebu Business Park, Archbishop Avenue, Cebu City, Philippines 6000</p>
+            <ul class="timeline-duties">
+              <li>Made and optimized process flowcharts for business excellence</li>
+              <li>Managed inventory tracking and control systems</li>
+              <li>Handled documentation filing and organization</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Process Flowcharts</span>
+              <span class="tag">Inventory Management</span>
+              <span class="tag">Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span>📋</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Report Specialist</h3>
+                <p class="timeline-company">QIMA Philippines Inc. (formerly Asialspection)</p>
+              </div>
+              <span class="timeline-date">Jul 2023</span>
+            </div>
+            <p class="timeline-location">5F Skyrise 3, IT Business Park, Lahug, Cebu City</p>
+            <ul class="timeline-duties">
+              <li>Compiled and processed quality inspection reports</li>
+              <li>Ensured data accuracy and report integrity for global clients</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Reporting</span>
+              <span class="tag">Quality Assurance</span>
+              <span class="tag">Data Processing</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Skills ─── -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-label reveal">Competencies</div>
+      <h2 class="section-title reveal">Skills &amp; Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal" style="--delay:0s">
+          <div class="skill-icon">💼</div>
+          <h3>Microsoft Office</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.05s">
+          <div class="skill-icon">🗣️</div>
+          <h3>Communication</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.1s">
+          <div class="skill-icon">💡</div>
+          <h3>Creativity</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+          <span class="skill-pct">88%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.15s">
+          <div class="skill-icon">🤝</div>
+          <h3>Teamwork</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.2s">
+          <div class="skill-icon">🔭</div>
+          <h3>Innovation</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.25s">
+          <div class="skill-icon">⏰</div>
+          <h3>Time Management</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="82%"></div></div>
+          <span class="skill-pct">82%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.3s">
+          <div class="skill-icon">🎬</div>
+          <h3>Video Editing</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.35s">
+          <div class="skill-icon">🏗️</div>
+          <h3>3D Rendering</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+          <span class="skill-pct">78%</span>
+        </div>
+        <div class="skill-card reveal" style="--delay:0.4s">
+          <div class="skill-icon">🖼️</div>
+          <h3>Photo Manipulation</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="72%"></div></div>
+          <span class="skill-pct">72%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Education ─── -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <div class="section-label reveal">Academic Journey</div>
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <span class="edu-level">College</span>
+            <h3>University of Cebu — Main Campus</h3>
+            <p>Sanciangko St., Cebu City, Cebu 6000 Philippines</p>
+            <span class="edu-date">June 2019 – May 2023</span>
+            <div class="edu-degree-badge">BS Industrial Engineering</div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon">📚</div>
+          <div class="edu-body">
+            <span class="edu-level">Senior High School</span>
+            <h3>University of Cebu — Banilad Campus</h3>
+            <p>6000 Gov. M. Cuenco Ave., Cebu City, Philippines</p>
+            <span class="edu-date">June 2017 – March 2019</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon">🏫</div>
+          <div class="edu-body">
+            <span class="edu-level">Junior High School</span>
+            <h3>San Roque College de Cebu</h3>
+            <p>Liloan, Cebu 6002 Philippines</p>
+            <span class="edu-date">June 2013 – March 2017</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon">🏫</div>
+          <div class="edu-body">
+            <span class="edu-level">Elementary School</span>
+            <h3>San Narciso School</h3>
+            <p>Consolacion, Cebu 6001 Philippines</p>
+            <span class="edu-date">June 2007 – March 2013</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Certifications ─── -->
+  <section id="certifications" class="section certs-section">
+    <div class="container">
+      <div class="section-label reveal">Achievements</div>
+      <h2 class="section-title reveal">Certifications &amp; Seminars</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-ribbon">🏅</div>
+          <h3>APO e-Course on Productivity Tools and Techniques (Advanced)</h3>
+          <p class="cert-issuer">Asian Productivity Organization</p>
+          <span class="cert-date">May 06, 2023</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-ribbon">🏅</div>
+          <h3>APO e-Course on Case Studies on Incorporating Lean Manufacturing into Industry 4.0</h3>
+          <p class="cert-issuer">Asian Productivity Organization</p>
+          <span class="cert-date">May 06, 2023</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-ribbon">🏅</div>
+          <h3>Cost-Benefit Analysis: Gateway Towards Accountability and Design Refinement</h3>
+          <p class="cert-issuer">Philippine Institute of Industrial Engineers — Cebu Chapter</p>
+          <span class="cert-date">March 11, 2023</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-ribbon">🥋</div>
+          <h3>Certified Lean Six Sigma White Belt</h3>
+          <p class="cert-issuer">Lean Six Sigma Institute</p>
+          <span class="cert-date">April 03, 2023</span>
+        </div>
+
+        <div class="cert-card seminar-card reveal">
+          <div class="cert-ribbon">🗣️</div>
+          <h3>Gateway Towards Accountability and Design Refinement Learning Sessions on Cost-Benefit Analysis and Design Thinking</h3>
+          <p class="cert-issuer">Philippine Institute of Industrial Engineers — Cebu Chapter<br>Cebu Grand Hotel, Escario St., Cebu City</p>
+          <span class="cert-date">March 11, 2023</span>
+          <span class="cert-tag">Seminar</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ─── -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-label reveal">Let's Connect</div>
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="contact-intro reveal">I'm open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+      <div class="contact-cards reveal">
+        <a href="tel:09666399706" class="contact-card" id="contact-phone">
+          <div class="cc-icon">📞</div>
+          <div class="cc-body">
+            <span class="cc-label">Call Me</span>
+            <span class="cc-value">09666399706</span>
+          </div>
+        </a>
+        <a href="mailto:semajsasor@gmail.com" class="contact-card" id="contact-email">
+          <div class="cc-icon">✉️</div>
+          <div class="cc-body">
+            <span class="cc-label">Email Me</span>
+            <span class="cc-value">semajsasor@gmail.com</span>
+          </div>
+        </a>
+        <div class="contact-card" id="contact-location">
+          <div class="cc-icon">📍</div>
+          <div class="cc-body">
+            <span class="cc-label">Location</span>
+            <span class="cc-value">Consolacion, Cebu, Philippines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">JFR</span>
+      <p>© 2024 James Francis O. Rosas. Built with passion.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
