@@ -268,8 +268,7 @@ body {
   width: 340px; height: 340px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 70%;
-  transform: scale(1.1);
+  object-position: center bottom;
   display: block;
   position: relative;
   z-index: 1;
