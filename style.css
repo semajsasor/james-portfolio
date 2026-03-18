@@ -267,8 +267,9 @@ body {
 .hero-image {
   width: 340px; height: 340px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center bottom;
+  background-color: #b0b4ba; /* Neutral gray to blend with the original photo background */
   display: block;
   position: relative;
   z-index: 1;
