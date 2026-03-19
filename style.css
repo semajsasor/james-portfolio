@@ -267,13 +267,14 @@ body {
 .hero-image {
   width: 340px; height: 340px;
   border-radius: 50%;
-  object-fit: contain;
-  object-position: center bottom;
-  background-color: #b0b4ba; /* Neutral gray to blend with the original photo background */
+  object-fit: cover;
+  object-position: center center;
+  background-color: transparent;
   display: block;
   position: relative;
   z-index: 1;
   box-shadow: 0 0 60px rgba(0,212,255,0.2);
+  transform: scale(0.85);
 }
 
 /* Float Cards */
