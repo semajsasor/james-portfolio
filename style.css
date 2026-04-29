@@ -490,25 +490,25 @@ body.nav-open .nav-toggle span:nth-child(3) {
 }
 
 .card-1 {
-  top: 20%;
-  right: -28px;
-  animation: badgeFloatOne 6.8s ease-in-out infinite;
+  top: 16%;
+  right: -56px;
+  animation: badgeFloatOne 6.4s ease-in-out infinite;
 }
 
 .card-2 {
-  left: -30px;
-  bottom: 19%;
-  animation: badgeFloatTwo 7.6s ease-in-out 0.9s infinite;
+  left: -58px;
+  bottom: 14%;
+  animation: badgeFloatTwo 7.2s ease-in-out 1.1s infinite;
 }
 
 @keyframes badgeFloatOne {
   0%, 100% { transform: translate3d(0, 0, 0); }
-  50% { transform: translate3d(0, -6px, 0); }
+  50% { transform: translate3d(0, -18px, 0); }
 }
 
 @keyframes badgeFloatTwo {
   0%, 100% { transform: translate3d(0, 0, 0); }
-  50% { transform: translate3d(0, 5px, 0); }
+  50% { transform: translate3d(0, 18px, 0); }
 }
 
 .scroll-indicator {
@@ -601,6 +601,31 @@ body.nav-open .nav-toggle span:nth-child(3) {
 .highlight-item:hover {
   border-color: rgba(56, 189, 248, 0.34);
   background: var(--surface-strong);
+}
+
+.highlight-item .ui-icon {
+  --icon-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight-item .ui-icon svg {
+  stroke-width: 2.1;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.highlight-item .icon-process svg {
+  transform: none;
+}
+
+.highlight-item .icon-inventory svg {
+  transform: none;
+}
+
+.highlight-item .icon-render svg {
+  transform: none;
 }
 
 .highlight-item strong,
@@ -1119,8 +1144,9 @@ body.nav-open .nav-toggle span:nth-child(3) {
 .ui-icon {
   --size: 40px;
   --icon-size: 20px;
-  display: inline-grid;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: var(--size);
   height: var(--size);
   flex: 0 0 var(--size);
@@ -1269,15 +1295,15 @@ body.nav-open .nav-toggle span:nth-child(3) {
   }
 
   .card-1 {
-    top: 17%;
-    right: -8px;
-    animation-duration: 8.2s;
+    top: 14%;
+    right: -24px;
+    animation-duration: 7.8s;
   }
 
   .card-2 {
-    left: -8px;
-    bottom: 17%;
-    animation-duration: 8.8s;
+    left: -24px;
+    bottom: 13%;
+    animation-duration: 8.4s;
   }
 
   .about-grid {
